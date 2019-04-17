@@ -6,26 +6,22 @@ html,body{
   margin:0;
   padding:0
 }
-/* header start */
 
-.header {
-background-color: black;
-width: 100%:
-}
-
-.pocket_planner_header_logo {
-  width: 10%;
-  margin-top: 20px;
-  margin-left: 30px;
-}
-
-/* header end */
 
 /* banner start */
 .banner {
   position: relative;
   text-align: center;
   color: white;
+}
+
+.pocket_planner_header_logo {
+  width: 15%;
+  margin-top: 20px;
+  margin-left: 30px;
+  position: absolute;
+  top: 8px;
+  left: 10px;
 }
 
 .banner_content {
@@ -68,15 +64,56 @@ button:hover {
 }
 
 .banner_title {
-  font-style: futura-pt, sans-serif;
+  font-family: futura-pt, sans-serif;
   font-size: 50px;
 }
 
 .banner_image {
   width: 100%;
+
 }
 
 /* banner end */
+
+/*content*/
+
+.content {
+  margin: 10%;
+  text-align: center;
+  font-family: futura-pt, sans-serif;
+}
+
+.title_text01 {
+  font-size: 48px;
+}
+
+.copy_text_01 {
+  font-size: 22px;
+}
+
+.bold_text {
+  font-weight: 600;
+}
+
+.form_image {
+  width:100%;
+}
+
+.convertkit {
+  position: relative;
+
+}
+
+.convertkit_form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/*footer*/
 
 .footer {
 width: 100%;
@@ -84,6 +121,7 @@ position: absolute;
 background-color: black;
 margin-bottom: -3.5rem;
 margin-top: -3.5rem;
+
 }
 
 .footer_logo {
