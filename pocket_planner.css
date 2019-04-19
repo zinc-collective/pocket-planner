@@ -94,7 +94,18 @@ button:hover {
 .bold_text {
   font-weight: 600;
 }
-/
+
+.rundown {
+  font-size: 24px;
+}
+
+.icon_blurb {
+  display: inline-block:
+}
+
+.icons{
+  font-size: 60px;
+}
 /*form*/
 
 .form_image {
