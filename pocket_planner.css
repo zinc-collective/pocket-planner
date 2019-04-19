@@ -94,6 +94,8 @@ button:hover {
 .bold_text {
   font-weight: 600;
 }
+/
+/*form*/
 
 .form_image {
   width:100%;
@@ -106,9 +108,15 @@ button:hover {
 
 .convertkit_form {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.form_blurb {
+  font-family: futura-pt, sans-serif;
+  color: #ffffff;
+  text-align: center;
 }
 
 
