@@ -180,6 +180,9 @@ pre {
   line-height: 1.4; }
 
 .white-text, .text-white {
+  font-family: futura, sans-serif;
+  font-style: normal;
+  font-weight: 300;
   color: white; }
 
 .text-center, .center-text {
